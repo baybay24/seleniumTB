@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="" />
+    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575640077347</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="自动登录淘宝，选择商品">
+      <created>1575640264341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575640264341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,14 +210,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="977" y="109" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1575639952875" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575640076370">
+    <state x="828" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575640590854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575640076370" />
-    <state x="1165" y="192" key="FileChooserDialogImpl" timestamp="1575640004846">
+    <state x="828" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575640590854" />
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575640263665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1165" y="192" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575640004846" />
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575640263665" />
+    <state x="1165" y="192" key="FileChooserDialogImpl" timestamp="1575640543972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1165" y="192" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575640543972" />
     <state x="820" y="437" width="373" height="172" key="Github.CreateGistDialog" timestamp="1575639947114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,9 +262,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="88" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575623305983" />
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575640098556">
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575640483883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575640098556" />
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575640483883" />
   </component>
 </project>
