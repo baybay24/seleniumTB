@@ -20,7 +20,6 @@ public class CartPage {
         this.driver = driver;
     }
 
-@Test
     public void addGoods(String[] goods) {
         driver.get("https://www.taobao.com/?spm=a230r.1.1581860521.1.62ee3d087UJOPT");
 
