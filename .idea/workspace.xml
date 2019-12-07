@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="" />
+    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Shopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/OpenBrowser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/InitBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/SelectDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/SelectDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/TestNg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestNg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/WaitTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shopping/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shopping/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shopping/Shop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/InitBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/InitBrowser.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,16 +73,16 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Shop.shopping">
-    <configuration name="Cart.addCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CartPage.addCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shopping.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.Cart" />
+      <option name="MAIN_CLASS_NAME" value="pages.CartPage" />
       <option name="METHOD_NAME" value="addCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -73,17 +91,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InitBrowser.initBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Login.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tools.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tools" />
-      <option name="MAIN_CLASS_NAME" value="tools.InitBrowser" />
-      <option name="METHOD_NAME" value="initBrowser" />
+      <option name="PACKAGE_NAME" value="shopping" />
+      <option name="MAIN_CLASS_NAME" value="shopping.Login" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -95,7 +113,7 @@
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shopping.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +131,12 @@
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shopping.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="shopping.OpenBrowser" />
+      <option name="MAIN_CLASS_NAME" value="tools.OpenBrowser" />
       <option name="METHOD_NAME" value="openBrowser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -131,7 +149,7 @@
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shopping.*" />
+          <option name="PATTERN" value="pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,10 +166,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Shop.shopping" />
-        <item itemvalue="TestNG.Cart.addCart" />
+        <item itemvalue="TestNG.Login.login" />
+        <item itemvalue="TestNG.CartPage.addCart" />
         <item itemvalue="TestNG.OpenBrowser.openBrowser" />
         <item itemvalue="TestNG.Login.search" />
-        <item itemvalue="TestNG.InitBrowser.initBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575640717371</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="自动登录淘宝，选择商品">
+      <created>1575641020484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575641020484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,18 +236,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="185" key="#InitBrowser.initBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1575624339198" />
+    <state x="552" y="181" width="816" height="725" key="#Intentions" timestamp="1575704167734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" width="816" height="725" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1575704167734" />
     <state x="977" y="109" key="#Notifications" timestamp="1575639952875">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="977" y="109" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1575639952875" />
+    <state x="518" y="80" key="#Project_Structure" timestamp="1575722179968">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="518" y="80" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1575722179968" />
     <state x="828" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575640590854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="106" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575640590854" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575641002315">
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1575703723890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575641002315" />
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575703723890" />
+    <state x="710" y="285" width="431" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575721442605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="285" width="431" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1575721442605" />
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575704971194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575704971194" />
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575641070896">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575641070896" />
+    <state x="-44" y="60" key="DiffContextDialog" timestamp="1575641066842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-44" y="60" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575641066842" />
     <state x="1165" y="192" key="FileChooserDialogImpl" timestamp="1575640543972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,45 +280,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="437" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575639947114" />
-    <state width="908" height="237" key="GridCell.Tab.0.bottom" timestamp="1575639953837">
+    <state width="1243" height="347" key="GridCell.Tab.0.bottom" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="908" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575639953837" />
-    <state width="908" height="237" key="GridCell.Tab.0.center" timestamp="1575639953836">
+    <state width="1243" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
+    <state width="1243" height="347" key="GridCell.Tab.0.center" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="908" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575639953836" />
-    <state width="908" height="237" key="GridCell.Tab.0.left" timestamp="1575639953836">
+    <state width="1243" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
+    <state width="1243" height="347" key="GridCell.Tab.0.left" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="908" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575639953836" />
-    <state width="908" height="237" key="GridCell.Tab.0.right" timestamp="1575639953836">
+    <state width="1243" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
+    <state width="1243" height="347" key="GridCell.Tab.0.right" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="908" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575639953836" />
-    <state width="1243" height="347" key="GridCell.Tab.1.bottom" timestamp="1575636505740">
+    <state width="1243" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
+    <state width="1243" height="347" key="GridCell.Tab.1.bottom" timestamp="1575641575809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1243" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575636505740" />
-    <state width="1243" height="347" key="GridCell.Tab.1.center" timestamp="1575636505740">
+    <state width="1243" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575809" />
+    <state width="1243" height="347" key="GridCell.Tab.1.center" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1243" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575636505740" />
-    <state width="1243" height="347" key="GridCell.Tab.1.left" timestamp="1575636505740">
+    <state width="1243" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
+    <state width="1243" height="347" key="GridCell.Tab.1.left" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1243" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575636505740" />
-    <state width="1243" height="347" key="GridCell.Tab.1.right" timestamp="1575636505740">
+    <state width="1243" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
+    <state width="1243" height="347" key="GridCell.Tab.1.right" timestamp="1575641575808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1243" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575636505740" />
+    <state width="1243" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575641575808" />
     <state x="497" y="88" key="SettingsEditor" timestamp="1575623305983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="88" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575623305983" />
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575640483883">
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575641142324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575640483883" />
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575641142324" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575703503041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575703503041" />
   </component>
 </project>

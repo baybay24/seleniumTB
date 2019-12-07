@@ -11,7 +11,7 @@ import java.util.Properties;
 import java.util.logging.Logger;
 
 public class SelectDriver {
-@Test
+
 	public static WebDriver getDriverByFile(String browserName, Properties prop) {
 
 			String driver = "";

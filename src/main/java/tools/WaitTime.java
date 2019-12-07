@@ -2,7 +2,7 @@ package tools;
 
 import java.util.concurrent.TimeUnit;
 
-public class Wait {
+public class WaitTime {
     public static void waitingMinutes(int count) {
         try {
             TimeUnit.MINUTES.sleep(count);
