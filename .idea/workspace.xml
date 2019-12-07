@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shopping/Shopping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Cart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/OpenBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/OpenBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Shop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/InitBrowser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/SelectDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/SelectDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/TestNg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestNg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/WaitTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shopping/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shopping/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/shopping/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/InitBrowser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/InitBrowser.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575641020484</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="自动登录淘宝，选择商品">
+      <created>1575722289703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575722289703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,10 +255,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575704971194" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575641070896">
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575722313865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575641070896" />
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575722313865" />
     <state x="-44" y="60" key="DiffContextDialog" timestamp="1575641066842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
