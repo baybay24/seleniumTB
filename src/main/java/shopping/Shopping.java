@@ -4,9 +4,11 @@ import org.openqa.selenium.WebDriver;
 import pages.BasePage;
 import pages.CartPage;
 import pages.LoginPage;
+import tools.InputUrl;
 
 public class Shopping {
     String[] goods = new String[]{"云南白药", "柴火大院"};
+    String url = "http://www.baotao.com";
 
     private BasePage base ;
     private WebDriver driver ;
@@ -21,6 +23,7 @@ public class Shopping {
     }
 
     public void shoping(){
+        InputUrl.inputUrl(driver,url);
         login.login("","");
         cart.addGoods(goods);
     }
