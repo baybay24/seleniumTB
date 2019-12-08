@@ -1,6 +1,7 @@
 package shopping;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.BasePage;
 import pages.CartPage;
@@ -16,7 +17,8 @@ public class Shopping {
     private LoginPage login ;
     private CartPage cart ;
 
-    public Shopping(String[] goods){
+    @BeforeClass
+    public void init(){
         this.base = new BasePage("chrome");
         this.driver = base.getDriver();
         this.login = new LoginPage(base,driver);
