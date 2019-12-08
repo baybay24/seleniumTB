@@ -48,6 +48,5 @@ public class CartPage {
             Assert.assertEquals(count_bf,count_af,"商品没有成功加入购物车");
         }
         WaitTime.waitingSeconds(10);
-        base.close();
         }
 }

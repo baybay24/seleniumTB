@@ -1,6 +1,7 @@
 package shopping;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.BasePage;
@@ -26,14 +27,15 @@ public class Shopping {
     }
 
     @Test
-    public void shoping(){
-//        this.base = new BasePage("chrome");
-//        this.driver = base.getDriver();
-//        this.login = new LoginPage(base,driver);
-//        this.cart = new CartPage(base,driver);
+    public void testShoping(){
         InputUrl.inputUrl(driver,url);
         login.login("","");
         cart.addGoods(goods);
+    }
+
+    @AfterClass
+    public void close(){
+        driver.close();
     }
 
 }

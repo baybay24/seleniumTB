@@ -5,14 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shopping/Shopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Cart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/OpenBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shopping/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/InitBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/SelectDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/SelectDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/TestNg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/Wait.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/TestNg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestNg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,24 +61,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Shopping.shoping">
-    <configuration name="CartPage.addCart" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="shoppingOnTaobao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="pages.CartPage" />
-      <option name="METHOD_NAME" value="addCart" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Login.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
@@ -157,13 +133,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNg.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="shoppingOnTaobao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestNg" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Shopping.shoping" />
+        <item itemvalue="TestNG.TestNg.test" />
         <item itemvalue="TestNG.Shopping.Shopping" />
         <item itemvalue="TestNG.Shop.shopping" />
         <item itemvalue="TestNG.Login.login" />
-        <item itemvalue="TestNG.CartPage.addCart" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +233,35 @@
       <option name="project" value="LOCAL" />
       <updated>1575723721475</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="自动登录淘宝，选择商品">
+      <created>1575724041893</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575724041893</updated>
+    </task>
+    <task id="LOCAL-00009" summary="自动登录淘宝，选择商品">
+      <created>1575727216794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575727216794</updated>
+    </task>
+    <task id="LOCAL-00010" summary="自动登录淘宝，选择商品">
+      <created>1575775507069</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575775507069</updated>
+    </task>
+    <task id="LOCAL-00011" summary="自动登录淘宝，选择商品">
+      <created>1575775597235</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575775597235</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,10 +301,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575704971194" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575723720769">
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575775596457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575723720769" />
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575775596457" />
     <state x="-44" y="60" key="DiffContextDialog" timestamp="1575641066842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,22 +317,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="437" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575639947114" />
-    <state width="1332" height="211" key="GridCell.Tab.0.bottom" timestamp="1575723967398">
+    <state width="1329" height="188" key="GridCell.Tab.0.bottom" timestamp="1575793770324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1332" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575723967398" />
-    <state width="1332" height="211" key="GridCell.Tab.0.center" timestamp="1575723967398">
+    <state width="1329" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575793770324" />
+    <state width="1329" height="188" key="GridCell.Tab.0.center" timestamp="1575793770324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1332" height="211" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575723967398" />
-    <state width="1332" height="211" key="GridCell.Tab.0.left" timestamp="1575723967398">
+    <state width="1329" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575793770324" />
+    <state width="1329" height="188" key="GridCell.Tab.0.left" timestamp="1575793770324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1332" height="211" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575723967398" />
-    <state width="1332" height="211" key="GridCell.Tab.0.right" timestamp="1575723967398">
+    <state width="1329" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575793770324" />
+    <state width="1329" height="188" key="GridCell.Tab.0.right" timestamp="1575793770324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1332" height="211" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575723967398" />
+    <state width="1329" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575793770324" />
     <state width="1243" height="347" key="GridCell.Tab.1.bottom" timestamp="1575641575809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,10 +353,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="88" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575623305983" />
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575724031839">
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575775605199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575724031839" />
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575775605199" />
     <state x="685" y="220" key="git4idea.merge.GitMergeDialog" timestamp="1575723524519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
