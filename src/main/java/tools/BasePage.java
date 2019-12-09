@@ -1,4 +1,4 @@
-package pages;
+package tools;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import tools.ReadPropertyFile;
 import tools.SelectDriver;
 
-import java.util.Iterator;
 import java.util.Properties;
 import java.util.Set;
 
@@ -32,7 +31,8 @@ public class BasePage {
          driver.manage().addCookie(cookie);
     }
 
-    public Set<Cookie> getCookie(){ return driver.manage().getCookies();}
+    public Set<Cookie> getCookie(){
+        return driver.manage().getCookies();}
 
     public WebDriver getDriver() {
         return driver;
@@ -46,7 +46,16 @@ public class BasePage {
         return getWebElement(rootby).findElement(by);
     }
 
+    public WebElement getWebElement(WebElement element, By by){
+        return element.findElement(by);
+    }
+
     public void close(){
         driver.close();
     }
+
+    public void url(String url){
+        driver.get(url);
+    }
+
 }

@@ -1,35 +1,33 @@
-package shopping;
+package testCases;
 
+import operate.CartOperate;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.BasePage;
-import pages.CartPage;
-import pages.LoginPage;
+import tools.BasePage;
 import tools.InputUrl;
 
-public class Shopping {
-    String[] goods = new String[]{"云南白药", "柴火大院"};
-    String url = "http://www.taobao.com";
+public class CaseShopping {
+    String goods = "云南白药";
+    String url = "https://www.taobao.com/?spm=a230r.1.1581860521.1.62ee3d087UJOPT";
+    String username = "";
+    String password = "";
 
     private BasePage base ;
     private WebDriver driver ;
-    private LoginPage login ;
-    private CartPage cart ;
+    private CartOperate cart ;
 
     @BeforeClass
     public void init(){
         this.base = new BasePage("chrome");
         this.driver = base.getDriver();
-        this.login = new LoginPage(base,driver);
-        this.cart = new CartPage(base,driver);
+        this.cart = new CartOperate(base,driver);
     }
 
     @Test
-    public void testShoping(){
+    public void shopingCase(){
         InputUrl.inputUrl(driver,url);
-        login.login("","");
         cart.addGoods(goods);
     }
 
