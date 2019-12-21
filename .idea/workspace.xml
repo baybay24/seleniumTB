@@ -142,7 +142,7 @@
       <recent name="C:\Users\bay\IdeaProjects\shoppingOnTaobao\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+  <component name="RunManager" selected="TestNG.&lt;default&gt; (1)">
     <configuration name="CaseLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
@@ -196,18 +196,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadPropertyFile.read" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt; (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tools" />
-      <option name="MAIN_CLASS_NAME" value="tools.ReadPropertyFile" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -226,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt; (1)" />
         <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.CaseLogin" />
         <item itemvalue="TestNG.CaseLogin.loginCase" />
         <item itemvalue="TestNG.CaseShopping.shopingCase" />
-        <item itemvalue="TestNG.ReadPropertyFile.read" />
       </list>
     </recent_temporary>
   </component>
@@ -404,10 +396,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="385" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1576923027633" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1576928896534">
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1576928941933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576928896534" />
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576928941933" />
     <state x="-44" y="60" key="DiffContextDialog" timestamp="1575641066842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -420,22 +412,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="437" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575639947114" />
-    <state width="1877" height="480" key="GridCell.Tab.0.bottom" timestamp="1576928641048">
+    <state width="1877" height="480" key="GridCell.Tab.0.bottom" timestamp="1576928960237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
-    <state width="1877" height="480" key="GridCell.Tab.0.center" timestamp="1576928641048">
+    <state width="1877" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576928960237" />
+    <state width="1877" height="480" key="GridCell.Tab.0.center" timestamp="1576928960237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="480" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
-    <state width="1877" height="480" key="GridCell.Tab.0.left" timestamp="1576928641048">
+    <state width="1877" height="480" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576928960237" />
+    <state width="1877" height="480" key="GridCell.Tab.0.left" timestamp="1576928960237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="480" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
-    <state width="1877" height="480" key="GridCell.Tab.0.right" timestamp="1576928641048">
+    <state width="1877" height="480" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576928960237" />
+    <state width="1877" height="480" key="GridCell.Tab.0.right" timestamp="1576928960237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="480" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
+    <state width="1877" height="480" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576928960237" />
     <state width="977" height="432" key="GridCell.Tab.1.bottom" timestamp="1576679649045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
