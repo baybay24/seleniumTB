@@ -1,27 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/operate/CartOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/operate/LoginOperate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testCases/CaseLogin.java" afterDir="false" />
+    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="生成测试覆盖率报告">
+      <change afterPath="$PROJECT_DIR$/.css/coverage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.img/arrowDown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.img/arrowUp.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/.classes/CartOperate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/.classes/LoginOperate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/.classes/CartPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/.classes/LoginPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.classes/TestNg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/.classes/CaseLogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/.classes/CaseShopping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/.classes/BasePage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/.classes/Constants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/.classes/InputUrl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/.classes/ReadPropertyFile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/.classes/SelectDriver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/.classes/WaitTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_LINE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingOnTaobao.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shopping/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testCases/CaseShopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testCases/CaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testCases/CaseLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/ReadPropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/ReadPropertyFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tools/ReadPropertyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/ReadPropertyFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+    <option name="myElementSize" value="301" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\bay\IdeaProjects\shoppingOnTaobao" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="XSLT Stylesheet" />
       </list>
     </option>
   </component>
@@ -43,18 +115,22 @@
     </option>
   </component>
   <component name="ProjectId" id="1UbMSTU95Cs5ur6OiUCHnYTiAPN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -66,8 +142,8 @@
       <recent name="C:\Users\bay\IdeaProjects\shoppingOnTaobao\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CaseShopping.shopingCase">
-    <configuration name="CaseLogin.testShoping" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
+    <configuration name="CaseLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
@@ -77,15 +153,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="testCases" />
       <option name="MAIN_CLASS_NAME" value="testCases.CaseLogin" />
-      <option name="METHOD_NAME" value="testShoping" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaseShopping.shoping" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CaseLogin.loginCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
@@ -93,9 +168,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="shopping" />
-      <option name="MAIN_CLASS_NAME" value="testCases.CaseShopping" />
-      <option name="METHOD_NAME" value="shoping" />
+      <option name="PACKAGE_NAME" value="testCases" />
+      <option name="MAIN_CLASS_NAME" value="testCases.CaseLogin" />
+      <option name="METHOD_NAME" value="loginCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -121,17 +196,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CaseShopping.testShoping" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ReadPropertyFile.read" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testCases.*" />
+          <option name="PATTERN" value="tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testCases" />
-      <option name="MAIN_CLASS_NAME" value="testCases.CaseShopping" />
-      <option name="METHOD_NAME" value="testShoping" />
+      <option name="PACKAGE_NAME" value="tools" />
+      <option name="MAIN_CLASS_NAME" value="tools.ReadPropertyFile" />
+      <option name="METHOD_NAME" value="read" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,18 +214,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNg.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="shoppingOnTaobao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestNg" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -159,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.CaseLogin" />
+        <item itemvalue="TestNG.CaseLogin.loginCase" />
         <item itemvalue="TestNG.CaseShopping.shopingCase" />
-        <item itemvalue="TestNG.CaseShopping.testShoping" />
-        <item itemvalue="TestNG.CaseLogin.testShoping" />
-        <item itemvalue="TestNG.CaseShopping.shoping" />
-        <item itemvalue="TestNG.TestNg.test" />
+        <item itemvalue="TestNG.ReadPropertyFile.read" />
       </list>
     </recent_temporary>
   </component>
@@ -281,10 +348,18 @@
       <option name="project" value="LOCAL" />
       <updated>1575800255885</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="自动登录淘宝，选择商品">
+      <created>1575905713116</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575905713116</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="自动登录淘宝，选择商品" />
     <option name="LAST_COMMIT_MESSAGE" value="自动登录淘宝，选择商品" />
   </component>
@@ -325,62 +400,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="269" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575704971194" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1575800255152">
+    <state x="784" y="385" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576923027633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575800255152" />
+    <state x="784" y="385" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1576923027633" />
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1576928896534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576928896534" />
     <state x="-44" y="60" key="DiffContextDialog" timestamp="1575641066842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-44" y="60" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575641066842" />
-    <state x="1165" y="192" key="FileChooserDialogImpl" timestamp="1575640543972">
+    <state x="1165" y="192" key="FileChooserDialogImpl" timestamp="1576928724048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1165" y="192" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575640543972" />
+    <state x="1165" y="192" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576928724048" />
     <state x="820" y="437" width="373" height="172" key="Github.CreateGistDialog" timestamp="1575639947114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="820" y="437" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575639947114" />
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom" timestamp="1575905277177">
+    <state width="1877" height="480" key="GridCell.Tab.0.bottom" timestamp="1576928641048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575905277177" />
-    <state width="1877" height="392" key="GridCell.Tab.0.center" timestamp="1575905277177">
+    <state width="1877" height="480" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
+    <state width="1877" height="480" key="GridCell.Tab.0.center" timestamp="1576928641048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575905277177" />
-    <state width="1877" height="392" key="GridCell.Tab.0.left" timestamp="1575905277177">
+    <state width="1877" height="480" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
+    <state width="1877" height="480" key="GridCell.Tab.0.left" timestamp="1576928641048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575905277177" />
-    <state width="1877" height="392" key="GridCell.Tab.0.right" timestamp="1575905277177">
+    <state width="1877" height="480" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
+    <state width="1877" height="480" key="GridCell.Tab.0.right" timestamp="1576928641048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="392" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575905277177" />
-    <state width="1877" height="231" key="GridCell.Tab.1.bottom" timestamp="1575904741466">
+    <state width="1877" height="480" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576928641048" />
+    <state width="977" height="432" key="GridCell.Tab.1.bottom" timestamp="1576679649045">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575904741466" />
-    <state width="1877" height="231" key="GridCell.Tab.1.center" timestamp="1575904741466">
+    <state width="977" height="432" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576679649045" />
+    <state width="977" height="432" key="GridCell.Tab.1.center" timestamp="1576679649044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575904741466" />
-    <state width="1877" height="231" key="GridCell.Tab.1.left" timestamp="1575904741466">
+    <state width="977" height="432" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576679649044" />
+    <state width="977" height="432" key="GridCell.Tab.1.left" timestamp="1576679649044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575904741466" />
-    <state width="1877" height="231" key="GridCell.Tab.1.right" timestamp="1575904741466">
+    <state width="977" height="432" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576679649044" />
+    <state width="977" height="432" key="GridCell.Tab.1.right" timestamp="1576679649044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="231" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575904741466" />
-    <state x="497" y="88" key="SettingsEditor" timestamp="1575904348639">
+    <state width="977" height="432" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576679649044" />
+    <state x="836" y="99" key="SettingsEditor" timestamp="1576924694837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="497" y="88" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575904348639" />
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575800262798">
+    <state x="836" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576924694837" />
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575905804300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575800262798" />
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575905804300" />
     <state x="685" y="220" key="git4idea.merge.GitMergeDialog" timestamp="1575723524519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,13 +468,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="663" y="322" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575794261318" />
-    <state x="334" y="224" key="new project wizard" timestamp="1575795902387">
+    <state x="334" y="224" key="new project wizard" timestamp="1576401584568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1575795902387" />
+    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576401584568" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575899146469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575899146469" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shoppingOnTaobao$CaseLogin_loginCase.ic" NAME="CaseLogin.loginCase Coverage Results" MODIFIED="1576924704428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testCases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shoppingOnTaobao$CaseLogin.ic" NAME="CaseLogin Coverage Results" MODIFIED="1576928413666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testCases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shoppingOnTaobao$_default_.ic" NAME="&lt;default&gt; Coverage Results" MODIFIED="1576928640996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

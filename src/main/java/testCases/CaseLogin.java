@@ -18,7 +18,7 @@ public class CaseLogin {
 
     @BeforeClass
     public void init(){
-        this.base = new BasePage("chrome");
+        this.base = new BasePage("IE");
         this.driver = base.getDriver();
         this.login = new LoginOperate(base,driver);
 

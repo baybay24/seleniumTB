@@ -1,0 +1,134 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: CartPage</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">pages</a> ]
+</div>
+
+<h1>Coverage Summary for Class: CartPage (pages)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">CartPage</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    44.4%
+  </span>
+  <span class="absValue">
+    (4/ 9)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    58.3%
+  </span>
+  <span class="absValue">
+    (7/ 12)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package pages;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;import org.openqa.selenium.By;
+<i>4</i>&nbsp;import org.openqa.selenium.WebDriver;
+<i>5</i>&nbsp;import org.openqa.selenium.WebElement;
+<i>6</i>&nbsp;import tools.BasePage;
+<i>7</i>&nbsp;
+<i>8</i>&nbsp;
+<i>9</i>&nbsp;import java.util.List;
+<i>10</i>&nbsp;
+<i>11</i>&nbsp;public class CartPage {
+<i>12</i>&nbsp;    private BasePage base;
+<i>13</i>&nbsp;    private WebDriver driver;
+<i>14</i>&nbsp;
+<b class="fc"><i>15</i>&nbsp;    public CartPage(BasePage base,WebDriver driver){</b>
+<b class="fc"><i>16</i>&nbsp;        this.base = base;</b>
+<b class="fc"><i>17</i>&nbsp;        this.driver = driver;</b>
+<b class="fc"><i>18</i>&nbsp;    }</b>
+<i>19</i>&nbsp;
+<i>20</i>&nbsp;    public WebElement inputElement(){
+<b class="fc"><i>21</i>&nbsp;        return base.getWebElement(By.className(&quot;search-combobox-input-wrap&quot;),By.id(&quot;q&quot;));</b>
+<i>22</i>&nbsp;    }
+<i>23</i>&nbsp;
+<i>24</i>&nbsp;    public WebElement searchElement(){
+<b class="fc"><i>25</i>&nbsp;        return base.getWebElement(By.cssSelector(&quot;button.btn-search.tb-bg&quot;));</b>
+<i>26</i>&nbsp;    }
+<i>27</i>&nbsp;
+<i>28</i>&nbsp;    public List&lt;WebElement&gt; allGoodsElement(){
+<b class="fc"><i>29</i>&nbsp;        return driver.findElements(By.className(&quot;m-itemlist&quot;));</b>
+<i>30</i>&nbsp;    }
+<i>31</i>&nbsp;
+<i>32</i>&nbsp;    public WebElement goodElement(WebElement element){
+<b class="nc"><i>33</i>&nbsp;        return element.findElement(By.className(&quot;pic-box-inner&quot;)).findElement(By.cssSelector(&quot;pic-link.J_ClickStat.J_ItemPicA&quot;));</b>
+<i>34</i>&nbsp;    }
+<i>35</i>&nbsp;
+<i>36</i>&nbsp;    public WebElement linkBasketElement(){
+<b class="nc"><i>37</i>&nbsp;        return base.getWebElement(By.id(&quot;J_LinkBasket&quot;));</b>
+<i>38</i>&nbsp;    }
+<i>39</i>&nbsp;
+<i>40</i>&nbsp;    public WebElement goodSelectedElement(){
+<b class="nc"><i>41</i>&nbsp;        return base.getWebElement(By.className(&quot;tm-clear J_TSaleProp&quot;),By.xpath(&quot;//il&gt;i&quot;));</b>
+<i>42</i>&nbsp;    }
+<i>43</i>&nbsp;
+<i>44</i>&nbsp;    public WebElement goodAmountElement(){
+<b class="nc"><i>45</i>&nbsp;        return base.getWebElement(By.cssSelector(&quot;input.tb-text.mui-amount-input&quot;));</b>
+<i>46</i>&nbsp;    }
+<i>47</i>&nbsp;
+<i>48</i>&nbsp;    public WebElement cartCountElement(){
+<b class="nc"><i>49</i>&nbsp;        return base.getWebElement(By.className(&quot;sn-cart-link&quot;),By.tagName(&quot;span&quot;));</b>
+<i>50</i>&nbsp;    }
+<i>51</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2019-12-21 19:45</div>
+</div>
+</body>
+</html>
