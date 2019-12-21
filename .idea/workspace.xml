@@ -1,79 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="生成测试覆盖率报告">
-      <change afterPath="$PROJECT_DIR$/.css/coverage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.img/arrowDown.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.img/arrowUp.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/.classes/CartOperate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/.classes/LoginOperate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operate/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/.classes/CartPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/.classes/LoginPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/.classes/TestNg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/.classes/CaseLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/.classes/CaseShopping.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/.classes/BasePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/.classes/Constants.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/.classes/InputUrl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/.classes/ReadPropertyFile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/.classes/SelectDriver.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/.classes/WaitTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_BLOCK.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_CLASS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_LINE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_LINE_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_METHOD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testReport/index_SORT_BY_NAME_DESC.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testCases/CaseLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testCases/CaseLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tools/ReadPropertyFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/ReadPropertyFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tools/ReadPropertyFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tools/ReadPropertyFile.class" afterDir="false" />
+    <list default="true" id="7f339667-d62d-4157-8c98-70115113c9b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testReport/.classes/BasePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/.classes/BasePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/.classes/Constants.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/.classes/Constants.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/.classes/InputUrl.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/.classes/InputUrl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/.classes/ReadPropertyFile.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/.classes/ReadPropertyFile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/.classes/SelectDriver.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/.classes/SelectDriver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/.classes/WaitTime.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/.classes/WaitTime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testReport/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/tools/index_SORT_BY_NAME_DESC.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,13 +291,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575905713116</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="生成测试覆盖率报告">
+      <created>1576928942869</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576928942870</updated>
+    </task>
+    <task id="LOCAL-00016" summary="生成测试覆盖率报告">
+      <created>1576929105946</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576929105946</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="自动登录淘宝，选择商品" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动登录淘宝，选择商品" />
+    <MESSAGE value="生成测试覆盖率报告" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成测试覆盖率报告" />
   </component>
   <component name="WindowStateProjectService">
     <state x="674" y="163" key="#&lt;default&gt;" timestamp="1575905568613">
@@ -396,10 +355,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="385" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1576923027633" />
-    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1576928941933">
+    <state x="975" y="43" key="CommitChangelistDialog2" timestamp="1576929105272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576928941933" />
+    <state x="975" y="43" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576929105272" />
     <state x="-44" y="60" key="DiffContextDialog" timestamp="1575641066842">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -448,10 +407,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="836" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576924694837" />
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1575905804300">
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2" timestamp="1576929118153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575905804300" />
+    <state x="977" y="184" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576929118153" />
     <state x="685" y="220" key="git4idea.merge.GitMergeDialog" timestamp="1575723524519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
