@@ -1,0 +1,43 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCases",
+    "children" : [ {
+      "name" : "CaseLogin",
+      "children" : [ {
+        "name" : "loginCase",
+        "uid" : "99efd6d443696b0a",
+        "parentUid" : "071c4f3b87366d59f939945f2a3c2f5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577185836493,
+          "stop" : 1577185842369,
+          "duration" : 5876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "071c4f3b87366d59f939945f2a3c2f5d"
+    }, {
+      "name" : "CaseShopping",
+      "children" : [ {
+        "name" : "shopingCase",
+        "uid" : "80486f240863b274",
+        "parentUid" : "977ad982195e89be6b13961a11aa3c93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577185847915,
+          "stop" : 1577185852629,
+          "duration" : 4714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "977ad982195e89be6b13961a11aa3c93"
+    } ],
+    "uid" : "cfc8e8fdd97a2be9c902f7e7586bd330"
+  } ]
+}

@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import tools.BasePage;
 import tools.InputUrl;
 
+
 public class CaseLogin {
 
     String url = "http://www.taobao.com";
@@ -23,6 +24,7 @@ public class CaseLogin {
         this.login = new LoginOperate(base,driver);
 
     }
+
 
     @Test
     public void loginCase(){

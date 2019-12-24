@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "All Test Suite",
+    "children" : [ {
+      "name" : "C:/Users/bay/IdeaProjects/shoppingOnTaobao/src/main/java/testCases/CaseLogin.java",
+      "children" : [ {
+        "name" : "testCases.CaseLogin",
+        "children" : [ {
+          "name" : "loginCase",
+          "uid" : "99efd6d443696b0a",
+          "parentUid" : "faed850cdad4950537efe9d2290307c9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577185836493,
+            "stop" : 1577185842369,
+            "duration" : 5876
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "faed850cdad4950537efe9d2290307c9"
+      } ],
+      "uid" : "54bec8e89b1db4cf2d9580ba75168d4c"
+    }, {
+      "name" : "C:\\Users\\bay\\IdeaProjects\\shoppingOnTaobao\\src\\main\\java\\testCases\\CaseShopping.java",
+      "children" : [ {
+        "name" : "testCases.CaseShopping",
+        "children" : [ {
+          "name" : "shopingCase",
+          "uid" : "80486f240863b274",
+          "parentUid" : "403a06d3ca545a900616e2e23bd6e3fd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1577185847915,
+            "stop" : 1577185852629,
+            "duration" : 4714
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "403a06d3ca545a900616e2e23bd6e3fd"
+      } ],
+      "uid" : "270c78b45784d182e488f07273ea356a"
+    } ],
+    "uid" : "7d0421919ebcae780c955830177c9415"
+  } ]
+}
