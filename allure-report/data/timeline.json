@@ -4,29 +4,89 @@
   "children" : [ {
     "name" : "DESKTOP-NT4919K",
     "children" : [ {
-      "name" : "26392@DESKTOP-NT4919K.main(1)",
+      "name" : "6444@DESKTOP-NT4919K.main(1)",
       "children" : [ {
-        "name" : "loginCase",
-        "uid" : "99efd6d443696b0a",
-        "parentUid" : "d11af2574acfa51f8d87683443209f0a",
+        "name" : "shopingCase",
+        "uid" : "2207cceeecb31eb8",
+        "parentUid" : "bd01c93dd3a70a423f55ba4e8295111b",
         "status" : "passed",
         "time" : {
-          "start" : 1577185836493,
-          "stop" : 1577185842369,
-          "duration" : 5876
+          "start" : 1577330986629,
+          "stop" : 1577330990994,
+          "duration" : 4365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginCase",
+        "uid" : "16ae79123b8ab782",
+        "parentUid" : "bd01c93dd3a70a423f55ba4e8295111b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577330973786,
+          "stop" : 1577330979786,
+          "duration" : 6000
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd01c93dd3a70a423f55ba4e8295111b"
+    }, {
+      "name" : "17840@DESKTOP-NT4919K.main(1)",
+      "children" : [ {
+        "name" : "loginCase",
+        "uid" : "d931ad87774ee633",
+        "parentUid" : "3fd2cc7e7b810635c689ba33993b5479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577186953955,
+          "stop" : 1577186959749,
+          "duration" : 5794
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "shopingCase",
-        "uid" : "80486f240863b274",
+        "uid" : "314bf698c8701ae0",
+        "parentUid" : "3fd2cc7e7b810635c689ba33993b5479",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577186965285,
+          "stop" : 1577186969578,
+          "duration" : 4293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fd2cc7e7b810635c689ba33993b5479"
+    }, {
+      "name" : "26392@DESKTOP-NT4919K.main(1)",
+      "children" : [ {
+        "name" : "shopingCase",
+        "uid" : "99b24accf04274a5",
         "parentUid" : "d11af2574acfa51f8d87683443209f0a",
         "status" : "passed",
         "time" : {
           "start" : 1577185847915,
           "stop" : 1577185852629,
           "duration" : 4714
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginCase",
+        "uid" : "75fa48ab26842229",
+        "parentUid" : "d11af2574acfa51f8d87683443209f0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1577185836493,
+          "stop" : 1577185842369,
+          "duration" : 5876
         },
         "flaky" : false,
         "newFailed" : false,

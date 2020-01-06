@@ -1,5 +1,9 @@
 package testCases;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import operate.LoginOperate;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -8,7 +12,8 @@ import org.testng.annotations.Test;
 import tools.BasePage;
 import tools.InputUrl;
 
-
+@Epic(value="登录测试")
+@Feature("演示登录")
 public class CaseLogin {
 
     String url = "http://www.taobao.com";
@@ -27,6 +32,8 @@ public class CaseLogin {
 
 
     @Test
+    @Description("Allure描述")
+    @Story("Allure注释描述")
     public void loginCase(){
         InputUrl.inputUrl(driver,url);
         login.login("","");

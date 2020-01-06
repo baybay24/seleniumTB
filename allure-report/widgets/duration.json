@@ -1,20 +1,20 @@
 [ {
-  "uid" : "80486f240863b274",
-  "name" : "shopingCase",
+  "uid" : "16ae79123b8ab782",
+  "name" : "loginCase",
   "time" : {
-    "start" : 1577185847915,
-    "stop" : 1577185852629,
-    "duration" : 4714
+    "start" : 1577330973786,
+    "stop" : 1577330979786,
+    "duration" : 6000
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "99efd6d443696b0a",
-  "name" : "loginCase",
+  "uid" : "2207cceeecb31eb8",
+  "name" : "shopingCase",
   "time" : {
-    "start" : 1577185836493,
-    "stop" : 1577185842369,
-    "duration" : 5876
+    "start" : 1577330986629,
+    "stop" : 1577330990994,
+    "duration" : 4365
   },
   "status" : "passed",
   "severity" : "normal"
